@@ -4,7 +4,53 @@
     --link-color: #2196F3;
     --background-color: #2F303A;
     --text-color: #757575;
-    --title-color: #212121
+    --title-color: #212121;
     
 }
 
+.header-link :nth-child(2) {
+color:var(--link-color); 
+font-family: 'Roboto', sans-serif;
+font-size: 14px; 
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.02em;
+}
+
+.header-link :nth-child(3) {
+    color: var(--title-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px; 
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02em;
+    }
+
+    .header-link :nth-child(4) {
+        color: var(--title-color);
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px; 
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.02em;
+        }
+
+        .header-link :nth-child(3) {
+            color: var(--link-color);
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px; 
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0.02em;
+            }
+
+            .header-link :nth-child(3) {
+                color: var(--text-color);
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px; 
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 0.02em;
+                }
+                
+                
