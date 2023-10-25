@@ -1,12 +1,119 @@
+/* This is for portfolio Page */
 :root {
-    --primary-color: #FFFFFF;
-    --secondary-color: #FFFFFF 60%;
-    --link-: color #2196F3;
-    --background-color: #2F303A;
+    --primary-color: #ffffff;
+    --secondary-color: #ffffff 60%;
+    --link-color: #2196f3;
+    --background-color: #2f303a;
     --text-color: #757575;
-    --title-color: #212121
+    --title-color: #212121;
+  }
+
+.header-link :nth-child(2) {
+    color: var(--link-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02em;
+  }
+  
+  .header-link :nth-child(3) {
+    color: var(--title-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02em;
+  }
+  
+  .header-link :nth-child(4) {
+    color: var(--title-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02em;
+  }
+  
+  .header-link :nth-child(5) {
+    color: var(--link-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02em;
+  }
+  
+  .header-link :nth-child(6) {
+    color: var(--text-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02em;
+  }
+
+  .hero-blue {
+color: var(--primary-color);
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.03em;
+  }
+
+  .hero-item { 
+        color: var(--title-color);
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0.03em;
 }
 
-.footer-item {
-    color: #2196F3;
+.hero-title{
+color:var(--title-color);
+font-family: "Roboto", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
 }
+
+.hero-text {
+color: var(--text-color);
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.03em;
+}
+
+
+.footer-address {
+    color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    }
+    
+    .footer-mail {
+      color: var(--secondary-color);
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      }
+    
+      .footer-tel {
+        color: var(--secondary-color);
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        }
