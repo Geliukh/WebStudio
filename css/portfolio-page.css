@@ -1,40 +1,35 @@
-.header-link :nth-child(2) {
+.header-link {
     color: var(--link-color);
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.02em;
   }
   
-  .header-link :nth-child(3) {
+  .header-link {
     color: var(--title-color);
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.02em;
   }
   
-  .header-link :nth-child(4) {
+  .header-link:hover {
     color: var(--title-color);
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.02em;
   }
   
-  .header-link :nth-child(5) {
+  .header-link {
     color: var(--link-color);
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.02em;
   }
   
-  .header-link :nth-child(6) {
+  .header-link {
     color: var(--text-color);
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.02em;
   }
 

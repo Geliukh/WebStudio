@@ -47,7 +47,7 @@ color:var(--primary-color);
 font-size: 44px;
 font-weight: 900;
 line-height: 60px;
-letter-spacing: 0.44em;
+letter-spacing: 0.04em;
 }
 
 .button {
@@ -62,7 +62,6 @@ letter-spacing: 0.06em;
 color: var(--title-color);
 font-size: 14px;
 font-weight: 700;
-line-height: normal;
 letter-spacing: 0.03em;
 }
 
