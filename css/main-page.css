@@ -1,41 +1,59 @@
-.header-link :nth-child(2) {
-  color: var(--link-color);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.02em;
+a.header-logo {
+  display: inline; 
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.header-link :nth-child(3) {
+
+a.header-logo::before {
+  content: "Web";
+  color:var(--link-color);
+}
+
+.header-link {
+text-decoration: none; 
+color: var(--title-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+.header-link {
+  text-decoration: none; 
   color: var(--title-color);
   font-size: 14px;
   font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02;
 }
 
-.header-link :nth-child(4) {
+.header-link {
+  text-decoration: none; 
   color: var(--title-color);
   font-size: 14px;
   font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02;
 }
 
-.header-link :nth-child(5) {
+.header-link {
+  text-decoration: none; 
   color: var(--link-color);
   font-size: 14px;
   font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02;
 }
 
-.header-link :nth-child(6) {
+.header-link {
+  text-decoration: none; 
   color: var(--text-color);
   font-size: 14px;
   font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02;
+}
+
+.header-link:hover {
+  color: var(--link-color);
 }
 
 .hero {
@@ -44,41 +62,56 @@
 
 .hero-title {
 color:var(--primary-color);
+text-align: center;
 font-size: 44px;
 font-weight: 900;
 line-height: 60px;
-letter-spacing: 0.04em;
+letter-spacing: 0.06;
 }
 
 .button {
-color:var(--primary-color);
-font-size: 16px;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 0.06em;
+  background-color:var(--link-color);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.button:hover {
+  background-color: #0066cc;
+}
+
+
+.button span {
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
 }
 
 .info-title {
 color: var(--title-color);
 font-size: 14px;
 font-weight: 700;
-letter-spacing: 0.03em;
+letter-spacing: 0.03;
 }
 
 .info-text {
 color:var(--text-color);
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
 line-height: 24px;
-letter-spacing: 0.03em;
+letter-spacing: 0.03;
 }
 
 .specialisation-title {
 color: var(--title-color);
+text-align: center;
 font-size: 36px;
 font-weight: 700;
-line-height: normal;
 letter-spacing: 0.03em;
 }
 
@@ -86,50 +119,65 @@ letter-spacing: 0.03em;
 color: var(--title-color);
 font-size: 36px;
 font-weight: 700;
-line-height: normal;
-letter-spacing: 0.03em;
+letter-spacing: 0.03;
 }
 
   .team-name {
 color:var(--title-color);
 font-size: 16px;
 font-weight: 500;
-line-height: normal;
-letter-spacing: 0.03em;
+letter-spacing: 0.03;
 }
 
   .team-text {
 color:var(--text-color);
 font-size: 16px;
 font-weight: 400;
-line-height: normal;
-letter-spacing: 0.03em;
+letter-spacing: 0.03;
 }
 
   .footer {
     background-color:var(--background-color) ;
 }
+a.footer-logo {
+  display: inline; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+a.footer-logo::before {
+  content: "Web";
+  color:var(--link-color);
+}
 
 .footer-address {
 color: var(--primary-color);
 font-size: 14px;
+font-style: normal;
 font-weight: 400;
 line-height: 24px;
-letter-spacing: 0.03em;
+letter-spacing: 0.03;
 }
 
 .footer-mail {
+  text-decoration: none; 
   color: var(--secondary-color);
   font-size: 14px;
+  font-style: normal;
   font-weight: 400;
+  line-height: normal;
   line-height: 24px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03;
   }
 
   .footer-tel {
+    text-decoration: none; 
     color: var(--secondary-color);
     font-size: 14px;
+    font-style: normal;
     font-weight: 400;
+    line-height: normal;
     line-height: 24px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
     }
