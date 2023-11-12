@@ -3,7 +3,6 @@
 font-family: 'Raleway', sans-serif;
 font-size: 26px;
 font-weight: 700;
-line-height: normal;
 letter-spacing: 0.03em;
 }
 
@@ -12,7 +11,6 @@ color:var(--word-color);
 font-family: 'Raleway', sans-serif;
 font-size: 26px;
 font-weight: 700;
-line-height: normal;
 letter-spacing: 0.03em;
 }
 
@@ -21,7 +19,6 @@ text-decoration: none;
 color: var(--word-color);
 font-size: 14px;
 font-weight: 500;
-line-height: normal;
 letter-spacing: 0.28px;
 }
 
@@ -70,7 +67,6 @@ letter-spacing: 0.28px;
 .button {
   background-color:var(--link-color);
   border: none;
-  color: white;
   padding: 10px 20px;
   font-weight: bold;
   text-align: center;
@@ -94,7 +90,6 @@ letter-spacing: 0.28px;
 color: var(--title-color);
 font-size: 14px;
 font-weight: 700;
-line-height: normal;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
@@ -144,7 +139,6 @@ letter-spacing: 0.03;
 font-family: 'Raleway', sans-serif;
 font-size: 26px;
 font-weight: 700;
-line-height: normal;
 letter-spacing: 0.03em;
 }
 
@@ -153,7 +147,6 @@ color:var(--word-color);
 font-family: 'Raleway', sans-serif;
 font-size: 26px;
 font-weight: 700;
-line-height: normal;
 letter-spacing: 0.03em;
 }
 
@@ -163,7 +156,6 @@ font-size: 14px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.03;
-font-style: normal;
 }
 
 .footer-mail {
@@ -180,7 +172,6 @@ font-style: normal;
     color: var(--text-color);
     font-size: 14px;
     font-weight: 400;
-    line-height: normal;
     line-height: 24px;
     letter-spacing: 0.03;
     }
