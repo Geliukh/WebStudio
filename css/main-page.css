@@ -103,16 +103,20 @@ letter-spacing: 0.28px;
 .info-title {
 color: var(--title-color);
 font-size: 14px;
+font-style: normal;
 font-weight: 700;
-letter-spacing: 0.03;
+line-height: normal;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 
 .info-text {
 color:var(--text-color);
 font-size: 14px;
+font-style: normal;
 font-weight: 400;
 line-height: 24px;
-letter-spacing: 0.03;
+letter-spacing: 0.03em;
 }
 
 .specialisation-title {
