@@ -62,6 +62,14 @@ letter-spacing: 0.28px;
   color: var(--link-color);
 }
 
+.header-link-mail:hover {
+  color:var(--link-color);
+}
+
+.header-link-tel:hover {
+  color: var(--link-color);
+}
+
 .hero {
   background-color: var(--background-color);
 }
@@ -151,16 +159,22 @@ letter-spacing: 0.03;
   .footer {
     background-color:var(--background-color) ;
 }
-a.footer-logo {
-  display: inline; 
-  text-decoration: none;
-  font-weight: bold;
+.footer-word {
+  color:var(--link-color);
+font-family: 'Raleway', sans-serif;
+font-size: 26px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.03em;
 }
 
-
-a.footer-logo::before {
-  content: "Web";
-  color:var(--link-color);
+.footer-title {
+color:var(--word-color);
+font-family: 'Raleway', sans-serif;
+font-size: 26px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.03em;
 }
 
 .footer-address {
@@ -170,22 +184,22 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.03;
+font-style: normal;
 }
 
 .footer-mail {
   text-decoration: none; 
-  color: var(--secondary-color);
+  color: var(--text-color);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
   line-height: 24px;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   }
 
   .footer-tel {
     text-decoration: none; 
-    color: var(--secondary-color);
+    color: var(--text-color);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
