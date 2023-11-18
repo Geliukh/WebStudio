@@ -38,7 +38,7 @@ letter-spacing: 0.02em;
   letter-spacing: 0.02;
 }
   .hero-button {
-color: var(--word-color);
+color: var(--primary-color);
 text-align: center;
 font-size: 16px;
 font-weight: 500;
@@ -83,6 +83,14 @@ letter-spacing: 0.03em;
 }
 .footer-word {
 color:var(--link-color);
+font-family: 'Raleway', sans-serif;
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.03em;
+}
+
+.footer-2word {
+  color:var(--primary-color);
 font-family: 'Raleway', sans-serif;
 font-size: 26px;
 font-weight: 700;
