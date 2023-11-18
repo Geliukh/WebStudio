@@ -66,6 +66,7 @@ letter-spacing: 0.28px;
 
 .button {
   background-color:var(--link-color);
+  color:var(--primary-color) ;
   border: none;
   padding: 10px 20px;
   font-weight: bold;
