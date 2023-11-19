@@ -38,7 +38,7 @@ letter-spacing: 0.02em;
   letter-spacing: 0.02;
 }
   .hero-button {
-color: var(--primary-color);
+color: var(--word-color);
 text-align: center;
 font-size: 16px;
 font-weight: 500;
@@ -50,6 +50,7 @@ border: none;
   .hero-button:hover {
     background-color: var(--link-color);
     border: none;
+    color: var(--primary-color);
   }
 
   .hero-item { 
