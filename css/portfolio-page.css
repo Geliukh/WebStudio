@@ -1,9 +1,22 @@
+.container {
+  width: 900px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header-word {
   color:var(--link-color);
 font-family: 'Raleway', sans-serif;
 font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.03em;
+}
+
+header {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-title {
@@ -37,6 +50,12 @@ letter-spacing: 0.02em;
   font-weight: 500;
   letter-spacing: 0.02;
 }
+
+main {
+padding-top: 100px;
+padding-bottom: 94px;
+}
+
   .hero-button {
 color: var(--word-color);
 text-align: center;
@@ -79,8 +98,11 @@ letter-spacing: 0.03em;
 }
 
 
+
 .footer {
   background-color:var(--background-color) ;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-word {
 color:var(--link-color);
