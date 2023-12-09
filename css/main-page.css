@@ -257,6 +257,7 @@ header {
   letter-spacing: 0.03;
   /* margin-bottom: 30px; */
   text-align: center;
+  margin-bottom: 30px;
 }
 
 /* Footer */
@@ -293,7 +294,6 @@ header {
 
 .footer-item {
   margin-top: 9px;
-  margin-bottom: 9px;
 }
 
 .footer-address {
