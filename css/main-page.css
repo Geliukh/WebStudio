@@ -155,6 +155,31 @@ header {
   gap: 100px;
 }
 
+.info-item::before {
+  height: 120px;
+  width: 270px;
+  content: '';
+  display: block;
+  background-color: var(--background-color-two);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.info-item:nth-child(1)::before {
+  background-image: url('../photos/antenna.png');
+}
+
+.info-item:nth-child(2)::before {
+  background-image: url('../photos/clock.png');
+}
+
+.info-item:nth-child(3)::before {
+  background-image: url('../photos/diograma.png');
+}
+
+.info-item:nth-child(4)::before {
+  background-image: url('../photos/astronaut.png');
+}
 
 
 .info-list {
@@ -175,6 +200,7 @@ header {
   text-transform: uppercase;
   gap: 50px;
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .info-text {
