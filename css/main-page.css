@@ -263,6 +263,10 @@ background-image: url(../photos/heroimage.png);
   background: #F5F4FA;
 }
 
+.team-item {
+  background: #FFF;
+}
+
 .team-title {
   color: var(--title-color);
   font-size: 36px;
