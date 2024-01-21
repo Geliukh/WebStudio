@@ -9,6 +9,7 @@
 header {
   padding-top: 32px;
   padding-bottom: 32px;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .header-container {
@@ -107,19 +108,13 @@ main {
   flex-shrink: 0;
   border-radius: 4px;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+  cursor: pointer;
 }
 
 .hero-button:hover {
   background-color: var(--link-color);
   border: none;
   color: var(--primary-color);
-}
-
-.thick-line {
-  width: 1600px;
-  height: 1px;
-  width: 100%;
-  background: #ECECEC;
 }
 
 .hero-list {
