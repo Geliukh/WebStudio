@@ -47,6 +47,27 @@ header {
   align-items: center;
 }
 
+.envelope-icon{
+  width: 16px;
+  height: 12px;
+  color: var(--text-color);
+}
+
+.phone-icon{
+  width: 10px;
+  height: 16px;
+  color: var(--text-color);
+}
+
+.envelope-icon:hover {
+  color: var(--link-color);
+
+}
+
+.phone-icon:hover {
+  color: var(--link-color);
+}
+
 .header-link {
   text-decoration: none;
   color: var(--word-color);
