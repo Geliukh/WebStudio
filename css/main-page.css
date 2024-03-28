@@ -352,17 +352,79 @@ header {
 
 /* Clients */
 
-.cliets-list {
+.clients-title {
+  color: #212121;
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+margin-top: 93px;
+margin-bottom: 50px;
+}
+
+
+.clients-container {
   display: flex;
+  list-style: none;
+}
+
+.clients-list {
+  display: flex;
+  gap: 50px;
+  align-items: center;
   justify-content: center;
-  gap: 22px;
+}
+
+.clients-item {
+  width: 172px;
+  height: 92px;
+  background-color: var(--primary-color);
+
 }
 
  .icon-company-tegline {
   width: 106px;
   height: 60px;
+  border-radius: 4px;
+  border: 1px solid var(--text-color)
  }
 
+ .icon-brand {
+  width: 106px;
+  height: 60px;
+    border-radius: 4px;
+  border: 1px solid var(--text-color)
+ }
+
+ .icon-company {
+  width: 106px;
+  height: 60px;
+  border-radius: 4px;
+  border: 1px solid var(--text-color)
+ }
+
+ .icon-foster-peters {
+  width: 106px;
+  height: 60px;
+  border-radius: 4px;
+  border: 1px solid var(--text-color)
+ }
+
+ .icon-ya-go {
+  width: 106px;
+  height: 60px;
+  border-radius: 4px;
+  border: 1px solid var(--text-color)
+ }
+
+ .company-tag-here {
+  width: 106px;
+  height: 60px;
+  border-radius: 4px;
+  border: 1px solid var(--text-color)
+ }
 /* Footer */
 
 .footer {
