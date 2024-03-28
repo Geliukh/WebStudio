@@ -47,13 +47,13 @@ header {
   align-items: center;
 }
 
-.envelope-icon{
+.envelope-icon {
   width: 16px;
   height: 12px;
   color: var(--text-color);
 }
 
-.phone-icon{
+.phone-icon {
   width: 10px;
   height: 16px;
   color: var(--text-color);
@@ -195,19 +195,19 @@ header {
 }
 
 .info-item:nth-child(1)::before {
-  background-image: url('../photos/antenna.png');
+  background-image: url('../photos/antenna.svg');
 }
 
 .info-item:nth-child(2)::before {
-  background-image: url('../photos/clock.png');
+  background-image: url('../photos/clock.svg');
 }
 
 .info-item:nth-child(3)::before {
-  background-image: url('../photos/diograma.png');
+  background-image: url('../photos/diagram.svg');
 }
 
 .info-item:nth-child(4)::before {
-  background-image: url('../photos/astronaut.png');
+  background-image: url('../photos/astronaut.svg');
 }
 
 
@@ -322,6 +322,46 @@ header {
   padding-bottom: 30px;
   text-align: center;
 }
+
+.team-list-icons {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+
+.instagram-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.twitter-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.facebook-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.linkedin-icon {
+  width: 20px;
+  height: 20px;
+
+}
+
+/* Clients */
+
+.cliets-list {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+
+ .icon-company-tegline {
+  width: 106px;
+  height: 60px;
+ }
 
 /* Footer */
 
