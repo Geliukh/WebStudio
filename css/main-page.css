@@ -51,12 +51,14 @@ header {
   width: 16px;
   height: 12px;
   color: var(--text-color);
+  fill: #757575;
 }
 
 .phone-icon {
   width: 10px;
   height: 16px;
   color: var(--text-color);
+  fill: #757575;
 }
 
 .envelope-icon:hover {
@@ -332,42 +334,62 @@ header {
 .instagram-icon {
   width: 20px;
   height: 20px;
+  fill: #AFB1B8;
+}
+
+.instagram-icon :hover {
+  fill: #2196F3;
 }
 
 .twitter-icon {
   width: 20px;
   height: 20px;
+  fill: #AFB1B8;
+}
+
+.twitter-icon :hover {
+  fill: #2196F3;
 }
 
 .facebook-icon {
   width: 20px;
   height: 20px;
+  fill: #AFB1B8;
+}
+
+.facebook-icon :hover {
+  fill: #2196F3;
 }
 
 .linkedin-icon {
   width: 20px;
   height: 20px;
+  fill: #AFB1B8;
+}
 
+.linkedin-icon :hover {
+  fill: #2196F3;
 }
 
 /* Clients */
 
 .clients-title {
   color: #212121;
-text-align: center;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 1.08px;
-margin-top: 93px;
-margin-bottom: 50px;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  margin-top: 93px;
+  margin-bottom: 50px;
 }
 
 
 .clients-container {
   display: flex;
   list-style: none;
+
 }
 
 .clients-list {
@@ -375,56 +397,103 @@ margin-bottom: 50px;
   gap: 50px;
   align-items: center;
   justify-content: center;
+
 }
 
 .clients-item {
   width: 172px;
   height: 92px;
   background-color: var(--primary-color);
-
+  margin-bottom: 94px;
 }
 
- .icon-company-tegline {
+.icon-company-tegline {
   width: 106px;
   height: 60px;
   border-radius: 4px;
-  border: 1px solid var(--text-color)
- }
+  padding: 16px 32px;
+  fill: #AFB1B8;
+  border: 1px solid #AFB1B8;
+}
 
- .icon-brand {
-  width: 106px;
-  height: 60px;
-    border-radius: 4px;
-  border: 1px solid var(--text-color)
- }
-
- .icon-company {
-  width: 106px;
-  height: 60px;
-  border-radius: 4px;
-  border: 1px solid var(--text-color)
- }
-
- .icon-foster-peters {
+.icon-company-tegline :hover {
+  fill: #2196F3;
+  cursor: pointer;
+}
+.icon-brand {
   width: 106px;
   height: 60px;
   border-radius: 4px;
-  border: 1px solid var(--text-color)
- }
+  padding: 16px 32px;
+  fill: #AFB1B8;
+  border: 1px solid #AFB1B8;
+  transition: fill 0.3s;
+}
 
- .icon-ya-go {
+.icon-brand :hover {
+  fill: #2196F3;
+  cursor: pointer;
+}
+.icon-company {
   width: 106px;
   height: 60px;
   border-radius: 4px;
-  border: 1px solid var(--text-color)
- }
+  padding: 16px 32px;
+  fill: #AFB1B8;
+  border: 1px solid #AFB1B8;
+  transition: fill 0.3s;
+}
 
- .company-tag-here {
+.icon-company :hover {
+  fill: #2196F3;
+  cursor: pointer;
+}
+
+.icon-foster-peters {
   width: 106px;
   height: 60px;
   border-radius: 4px;
-  border: 1px solid var(--text-color)
- }
+  padding: 16px 32px;
+  fill: #AFB1B8;
+  border: 1px solid #AFB1B8;
+  transition: fill 0.3s;
+}
+
+.icon-foster-peters :hover {
+  fill: #2196F3;
+  cursor: pointer;
+}
+
+.icon-ya-go {
+  width: 106px;
+  height: 60px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  fill: #AFB1B8;
+  border: 1px solid #AFB1B8;
+  transition: fill 0.3s;
+}
+
+.icon-ya-go :hover {
+  fill: #2196F3;
+  cursor: pointer;
+}
+
+.company-tag-here {
+  width: 106px;
+  height: 60px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  fill: #AFB1B8;
+  border: 1px solid #AFB1B8;
+  transition: fill 0.3s;
+}
+
+.company-tag-here :hover {
+  fill: #2196F3;
+  cursor: pointer;
+}
+
 /* Footer */
 
 .footer {
