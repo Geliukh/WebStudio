@@ -530,6 +530,17 @@ header {
   margin-top: 9px;
 }
 
+.footer-icons-title {
+  color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+margin-left: 516px;
+}
+
 .footer-address {
   color: var(--primary-color);
   font-size: 14px;
