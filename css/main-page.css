@@ -84,6 +84,26 @@ header {
   padding-left: 918px;
 }
 
+.header-box :hover {
+  fill: var(--link-color);
+}
+
+.header-box:hover .header-link-mail {
+  color: var(--link-color);
+}
+
+.header-box:hover .envelope-icon {
+  fill: var(--link-color);
+}
+
+.header-box:hover .header-link-tel {
+  color: var(--link-color);
+}
+
+.header-box:hover .phone-icon {
+  fill: var(--link-color);
+}
+
 .header-link-mail {
   text-decoration: none;
   color: var(--text-color);
@@ -399,6 +419,8 @@ header {
   justify-content: center;
 
 }
+
+
 
 .clients-item {
   width: 172px;
