@@ -357,8 +357,18 @@ header {
   fill: #AFB1B8;
 }
 
-.instagram-icon :hover {
-  fill: #2196F3;
+.team-link:hover {
+  background-color: #2196F3;
+  fill: #FFF;
+}
+
+.team-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
 }
 
 .twitter-icon {
@@ -367,18 +377,26 @@ header {
   fill: #AFB1B8;
 }
 
-.twitter-icon :hover {
-  fill: #2196F3;
-}
-
 .facebook-icon {
   width: 20px;
   height: 20px;
   fill: #AFB1B8;
 }
 
-.facebook-icon :hover {
-  fill: #2196F3;
+.twitter-icon:hover {
+  fill: #FFF;
+}
+
+.instagram-icon:hover {
+  fill: #FFF;
+}
+
+.linkedin-icon:hover {
+  fill: #FFF;
+}
+
+.facebook-icon:hover {
+  fill: #FFF;
 }
 
 .linkedin-icon {
@@ -386,12 +404,25 @@ header {
   height: 20px;
   fill: #AFB1B8;
 }
+/* Clients */
 
-.linkedin-icon :hover {
-  fill: #2196F3;
+.clients-container {
+  border: 2px solid #000;
 }
 
-/* Clients */
+/* Hover effect */
+.clients-container:hover {
+  border-color: #2196F3;
+}
+
+.clients-item:hover .clients-box svg {
+  fill: #2196F3;
+  border-color: #2196F3;
+}
+
+.clients-item .clients-box svg {
+  border: 1px solid #000;
+}
 
 .clients-title {
   color: #212121;
@@ -409,18 +440,15 @@ header {
 .clients-container {
   display: flex;
   list-style: none;
-
 }
+
 
 .clients-list {
   display: flex;
   gap: 50px;
   align-items: center;
   justify-content: center;
-
 }
-
-
 
 .clients-item {
   width: 172px;
@@ -438,10 +466,6 @@ header {
   border: 1px solid #AFB1B8;
 }
 
-.icon-company-tegline :hover {
-  fill: #2196F3;
-  cursor: pointer;
-}
 .icon-brand {
   width: 106px;
   height: 60px;
@@ -452,24 +476,16 @@ header {
   transition: fill 0.3s;
 }
 
-.icon-brand :hover {
-  fill: #2196F3;
-  cursor: pointer;
-}
 .icon-company {
   width: 106px;
   height: 60px;
   border-radius: 4px;
   padding: 16px 32px;
   fill: #AFB1B8;
-  border: 1px solid #AFB1B8;
+  /* border: 1px solid #AFB1B8; */
   transition: fill 0.3s;
 }
 
-.icon-company :hover {
-  fill: #2196F3;
-  cursor: pointer;
-}
 
 .icon-foster-peters {
   width: 106px;
@@ -481,10 +497,6 @@ header {
   transition: fill 0.3s;
 }
 
-.icon-foster-peters :hover {
-  fill: #2196F3;
-  cursor: pointer;
-}
 
 .icon-ya-go {
   width: 106px;
@@ -496,10 +508,6 @@ header {
   transition: fill 0.3s;
 }
 
-.icon-ya-go :hover {
-  fill: #2196F3;
-  cursor: pointer;
-}
 
 .company-tag-here {
   width: 106px;
@@ -511,10 +519,6 @@ header {
   transition: fill 0.3s;
 }
 
-.company-tag-here :hover {
-  fill: #2196F3;
-  cursor: pointer;
-}
 
 /* Footer */
 
@@ -548,9 +552,6 @@ header {
   letter-spacing: 0.03em;
 }
 
-.footer-item {
-  margin-top: 9px;
-}
 
 .footer-icons-title {
   color: #FFF;
@@ -560,7 +561,12 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
-margin-left: 516px;
+margin-bottom: 32px;
+}
+
+.footer-item-icon {
+  border-radius: 50%;
+  background-color: grey;
 }
 
 .footer-address {
@@ -589,5 +595,23 @@ margin-left: 516px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
+}
 
+.footer {
+  display: flex;
+  justify-content: space-between; /* Adjust spacing between lists */
+  align-items: flex-start; /* Align items to the top of the footer */
+}
+
+.footer-list-icons {
+  display: flex;
+}
+
+.footer-item, .footer-item-icons {
+  margin-bottom: 9px; /* Adjust spacing between items */
+  margin-right: 34px; /* Adjust spacing between items horizontally */
+}
+
+.footer-container {
+  display: flex;
 }
