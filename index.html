@@ -370,57 +370,63 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <form action="" class="modal-form">
-          <button type="submit" class="modal-button" data-modal-close>
-            <svg class="modal-exit-icon">
+          <button type="submit" class="modal-exit" data-modal-close>
+            <svg class="icon-exit">
               <use href="./photos/symbol-defs.svg#icon-exit"></use>
             </svg>
           </button>
           <h1 class="modal-title">Залиште свої дані, ми вам передзвонимо</h1>
           <ul class="modal-list">
             <li class="modal-item">
-              <label for="" class="modal-info">Ім'я</label>
+              <label for="name" class="modal-text">Ім'я</label>
               <div class="modal-input-container">
-                <input class="modal-input" type="text" name=""/>
+                <input type="text" name="" id="name" class="modal-input" required/>
                 <svg class="modal-icon">
                   <use href="./photos/symbol-defs.svg#icon-person"></use>
                 </svg>
               </div>
             </li>
             <li class="modal-item">
-              <label class="modal-text">Телефон</label>
+              <label for="tel" class="modal-text">Телефон</label>
               <div class="modal-input-container">
-                <input class="modal-input" type="tel" name=""/>
+                <input type="tel" name="" id="tel" class="modal-input" required/>
                 <svg class="modal-icon">
                   <use href="./photos/symbol-defs.svg#icon-phone"></use>
                 </svg>
               </div>
             </li>
             <li class="modal-item">
-              <label class="modal-text">Пошта</label>
+              <label for="email" class="modal-text">Пошта</label>
               <div class="modal-input-container">
-                <input class="modal-input" type="email"/>
+                <input type="email" name="" id="email" class="modal-input" required/>
                 <svg class="modal-icon">
                   <use href="./photos/symbol-defs.svg#icon-envelope"></use>
                 </svg>
               </div>
             </li>
             <li class="modal-item">
-              <label for="" class="modal-text">Коментар</label>
-              <input class="modal-input" type="text" placeholder="Введіть текст"
+              <label for="commentar" class="modal-text">Коментар</label>
+              <input
+                type="text"
+                name=""
+                class="modal-input"
+                placeholder="Введіть текст"
+                required
+                id="commentar"
               />
             </li>
           </ul>
-          <div class="modal-condition">
+          <div class="modal-conditions">
             <input
               type="checkbox"
               name=""
-              id=""
-              class="modal-condition-checkbox"
+              id="checkbox"
+              class="modal-conditions-checkbox"
             />
-            <p class="modal-condition-text">
+            <label class="modal-conditions-info" for="checkbox">
               Погоджуюся з розсилкою та приймаю
-            </p>
-            <a href="#" class="modal-condition-link">Умови договору</a>
+            </label>
+            <a href="#" class="modal-conditions-link">Умови договору</a>
           </div>
           <button type="submit" class="modal-button" data-modal-close>
             Відправити
