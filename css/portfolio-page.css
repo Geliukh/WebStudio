@@ -1,5 +1,5 @@
 .container {
-  width: 1200px;
+  width: 1350px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -134,6 +134,36 @@ main {
   padding-top: 100px;
   padding-bottom: 94px;
 }
+
+
+.lop-card-container:hover .overlay, .lop-card-container:focus .overlay{
+  background-color: rgba(33, 150, 243, 0.9);
+  width: 370px;
+height: 294px;
+position: absolute;
+transition: 1s;
+}
+
+.lop-card-container:hover .overlay-text, .lop-card-container:focus .overlay-text{
+  color: #FFF;
+
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+letter-spacing: 0.54px;
+position: absolute;
+opacity: 1;
+}
+
+.overlay-text{
+  position: absolute;
+  opacity: 0;
+  left: 24px;
+  top: 63px;
+}
+
 
 .hero-button {
   color: var(--word-color);
