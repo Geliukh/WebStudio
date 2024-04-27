@@ -136,7 +136,7 @@ main {
 }
 
 
-.lop-card-container:hover .overlay, .lop-card-container:focus .overlay{
+.overlay-info:hover .overlay, .overlay-info:focus .overlay{
   background-color: rgba(33, 150, 243, 0.9);
   width: 370px;
 height: 294px;
@@ -144,7 +144,7 @@ position: absolute;
 transition: 1s;
 }
 
-.lop-card-container:hover .overlay-text, .lop-card-container:focus .overlay-text{
+.overlay-info:hover .overlay-text, .overlay-info:focus .overlay-text{
   color: #FFF;
 
 font-family: Roboto;
