@@ -165,38 +165,43 @@ main {
   padding-bottom: 94px;
 }
 
-.overlay-info {
-  transition-property:  background-color , color ;
-  transition-duration:250ms;
-  transition-timing-function: cubic-bezier(0,.99,.12,.28);
+.overlay{
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: transform;
+  transition-duration: 250ms;
+  transform: scaleY(0);
 }
 
-.overlay-info:hover .overlay, .overlay-info:focus .overlay{
+.overlay-info:hover:hover .overlay, .overlay-info:focus .overlay{
   background-color: rgba(33, 150, 243, 0.9);
   width: 370px;
 height: 294px;
 position: absolute;
-transition: 1s;
+transform: scaleY(1);
+transform-origin: bottom;
 }
 
 .overlay-info:hover .overlay-text, .overlay-info:focus .overlay-text{
-  color: #FFF;
-
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; 
-letter-spacing: 0.54px;
-position: absolute;
-opacity: 1;
-}
+  opacity: 1;
+  }
 
 .overlay-text{
   position: absolute;
   opacity: 0;
   left: 24px;
   top: 63px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: opacity;
+  transition-duration: 250ms;
+  color: #FFF;
+
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: 0.54px;
+  position: absolute;
 }
 
 
