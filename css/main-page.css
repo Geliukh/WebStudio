@@ -205,6 +205,22 @@ header {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  animation: rollOut 2s forwards;
+}
+
+@keyframes rollOut {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-0%);
+  }
+}
+
+.loading-button {
+  animation: bouncing 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate
+    both;
 }
 
 .button {
@@ -233,6 +249,8 @@ header {
   transition-property:  background-color ;
   transition-duration:250ms;
   transition-timing-function: cubic-bezier(0,.99,.12,.28);
+  position: relative;
+  animation: rollOut 2s forwards;
 }
 
 
@@ -247,6 +265,15 @@ header {
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.06em;
+}
+
+@keyframes rollOut {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-0%);
+  }
 }
 
 /* Info */
@@ -264,6 +291,8 @@ header {
   background-color: var(--background-color-two);
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+  animation: rollOut 2s forwards;
 }
 
 .info-item:nth-child(1)::before {
@@ -282,6 +311,14 @@ header {
   background-image: url('../photos/astronaut.svg');
 }
 
+@keyframes rollOut {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-0%);
+  }
+}
 
 .info-list {
   display: flex;
@@ -302,6 +339,8 @@ header {
   gap: 50px;
   margin-bottom: 10px;
   margin-top: 30px;
+  position: relative;
+  animation: rollOut 2s forwards;
 }
 
 .info-text {
@@ -310,6 +349,8 @@ header {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
+  position: relative;
+  animation: rollOut 2s forwards;
 }
 
 /* Specialisation */
